@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="plugin.program.bingie-aiowizard" name="[COLOR blue]Bingie-AIO[/COLOR] Wizard" version="2.0.7" provider-name="xlite5">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.bingie-aiowizard" name="[COLOR blue]Bingie-AIO[/COLOR] Wizard" version="2.0.7" provider-name="xlite5">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -145,22 +145,4 @@
             <fanart>fanart.png</fanart>
         </assets>
     </extension>
-</addon><addon id="repository.test" name="REPO_NAME_HERE" version="1.0.0" provider-name="xlit5">
-    <extension point="xbmc.addon.repository" name="Example Repository">
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/xlit5/test/main/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/xlit5/test/main/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/xlit5/test/main/repo/zips/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>REPO_NAME_HERE</summary>
-        <description>DESCRIPTION OF YOUR REPO HERE</description>
-        <disclaimer />
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
-</addon></addons>
+</addon>
